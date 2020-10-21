@@ -55,8 +55,10 @@ def sorted_matrix
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE
   ]
-  storage_room[0].sort
-  storage_room[1].sort
+  sorted_produce = []
+  sorted_produce << storage_room[0].sort
+  sorted_produce << storage_room[1].sort
+  sorted_produce
 end
 
 def matrix_lookup(matrix, row, column)
