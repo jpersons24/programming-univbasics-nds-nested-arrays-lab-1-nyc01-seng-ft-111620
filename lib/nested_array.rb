@@ -1,3 +1,22 @@
+# spice_rack = [
+#   #   0        1          2
+#   ["Mace", "Ginger", "Marjoram"],   # 0
+#   ["Paprika", "Fajita Mix", "Coriander"],   # 1
+#   ["Parsley", "Sage", "Rosemary"]     # 2
+# ]
+# 
+# spice_rack[0]  #=> ["Mace", "Ginger", "Marjoram"]
+# spice_rack[0][1]  #=> "Ginger"
+# spice_rack[1][1]   #=>  "Fajita Mix"
+
+# first set of brackets refers to row of desired array, second brackets refer to element within that row
+
+
+
+
+
+
+
 # Examples inspired by U. S. National Organic Standards
 
 ORGANIC_PRODUCE = [
@@ -32,6 +51,7 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
+  
 end
 
 def matrix_lookup(matrix, row, column)
